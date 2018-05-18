@@ -38,11 +38,11 @@ class HomeContainer extends Component {
                     <Grid.Column width={3}>
                         <SideMenu></SideMenu>
                     </Grid.Column>
-                    <Grid.Column width={10}>
+                    <Grid.Column width={12}>
                         <InputPost/>
                         <ItemPosts posts = {this.state.post}></ItemPosts>
                     </Grid.Column>
-                    <Grid.Column width={3}>
+                    <Grid.Column width={1}>
                     </Grid.Column>
                 </Grid>
                 

@@ -6,21 +6,21 @@ const sideMenu  = () =>{
     return (
       
         <Menu  vertical>
-        <NavLink to = "/" exact ="/" >
+        <NavLink to = "/" exact ={true} >
         <Menu.Item name='inbox'>
           <Label color='teal'>500</Label>
             Post
           </Menu.Item>
         </NavLink>
 
-        <NavLink to = "/users" exact ="/" >
+        <NavLink to = "/users" >
         <Menu.Item name='spam'>
           <Label>10</Label>
           User
         </Menu.Item>
         </NavLink>
 
-        <NavLink to = "/users" exact ="/" >
+        <NavLink to = "/albums"  >
         <Menu.Item name='spam'>
           <Label>10</Label>
           Album

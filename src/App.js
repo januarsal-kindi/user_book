@@ -6,6 +6,8 @@ import { Button, Icon, Label ,Card,Image,Segment, Grid,Header,Item} from 'semant
 import Layout from './hoc/Layout/Layout'
 import HomeContainer from './Container/HomeContainer';
 import UserContainer from './Container/UserContainer';
+import AlbumContainer from './Container/AlbumContainer';
+
 
 import { Route, Switch } from 'react-router-dom';
 
@@ -18,6 +20,7 @@ class App extends Component {
         <Layout>
           <Switch>
             <Route path="/users" component={UserContainer} />
+            <Route path="/albums" component={AlbumContainer} />
             <Route path="/" exact component={HomeContainer} />
           </Switch>
         </Layout>
