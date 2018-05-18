@@ -5,3 +5,8 @@
 -
 -## Table of Contents
 -
+- git clone https://github.com/januarsal-kindi/user_book.git
+- cd user_book
+- npm install
+- npm start
+- npm test
